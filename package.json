@@ -1,5 +1,5 @@
 {
-    "name": "wifi_location",
+    "name": "locate_wifi",
     "version": "1.0.1",
     "description": "Get location based on WI-Fi access point BSSID using Mylnikov Geo and Wigle.net",
     "author": "Alexander Russkiy <developer@xinit.ru>",
@@ -8,8 +8,14 @@
         "wi-fi",
         "wifi",
         "wifi location",
+        "wi-fi location",
+        "locate wifi",
+        "locate wi-fi",
         "access point",
         "mylnikov",
+        "wigle",
+        "mylnikov.org",
+        "wigle.net",
         "location",
         "geolocation",
         "coordinate",
@@ -18,7 +24,7 @@
         "bssid",
         "bssid location"
     ],
-    "main": "lib/wifi_location.js",
+    "main": "lib/locate_wifi.js",
     "scripts": {
         "test": "node test/test.js"
     },

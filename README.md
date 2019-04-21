@@ -19,7 +19,7 @@ You can install it with this command:
 First require library:
 
 ```JavaScript
-const wifi = require('wifi_location');
+const wifi = require('locate_wifi');
 ```
 
 If you want to use OpenCellId, Mozilla Location Service or set custom socket

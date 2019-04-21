@@ -1,7 +1,7 @@
 'use strict';
 
 // require library
-const wifi = require('../lib/wifi_location');
+const wifi = require('../lib/index');
 
 // api name and api token for wigle.net
 const credendials = require('./credendials.json');
