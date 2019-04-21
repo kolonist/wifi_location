@@ -1,0 +1,36 @@
+{
+    "name": "wifi_location",
+    "version": "1.0.1",
+    "description": "Get location based on WI-Fi access point BSSID using Mylnikov Geo and Wigle.net",
+    "author": "Alexander Russkiy <developer@xinit.ru>",
+    "license": "MIT",
+    "keywords": [
+        "wi-fi",
+        "wifi",
+        "wifi location",
+        "access point",
+        "mylnikov",
+        "location",
+        "geolocation",
+        "coordinate",
+        "latitude",
+        "longitude",
+        "bssid",
+        "bssid location"
+    ],
+    "main": "lib/wifi_location.js",
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kolonist/wifi_location"
+    },
+    "bugs": {
+        "url": "https://github.com/kolonist/wifi_location/issues"
+    },
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-config-google": "latest"
+    }
+}
