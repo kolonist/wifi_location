@@ -1,6 +1,6 @@
 {
     "name": "locate_wifi",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Get location based on WI-Fi access point BSSID using Mylnikov Geo and Wigle.net",
     "author": "Alexander Russkiy <developer@xinit.ru>",
     "license": "MIT",
