@@ -11,7 +11,7 @@ if you want to use it.
 
 You can install it with this command:
 
-    npm install wifi_location
+    npm install locate_wifi
 
 
 # Usage
