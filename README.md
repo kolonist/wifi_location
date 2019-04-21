@@ -73,5 +73,5 @@ wifi.wigle(bssid)
 
 
 @license MIT \
-@version 1.0.1 \
+@version 1.0.2 \
 @author Alexander Russkiy <developer@xinit.ru>
