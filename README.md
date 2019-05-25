@@ -3,8 +3,9 @@
 Library can get location of Wi-Fi access points.
 
 Library can use open and completely free [Mylnikov](https://www.mylnikov.org/)
-service and limited [wigle.net](https://wigle.net/) (you need to regigter there)
-if you want to use it.
+service, [3WiFi](https://3wifi.stascorp.com/) and limited
+[wigle.net](https://wigle.net/) (you need to regigter there) if you want to use
+it.
 
 
 # Installation
@@ -30,6 +31,7 @@ wifi.init({
     // API keys
     api_name : 'you should sign up on https://wigle.net/ to get this',
     api_token: 'you should sign up on https://wigle.net/ to get this',
+    api_key  : 'you should sign up on https://3wifi.stascorp.com/ to get this',
 
     // socket timeout in milliseconds (default is 3000)
     'timeout': 3000
@@ -62,16 +64,27 @@ wifi.wigle(bssid)
         console.log(err);
     });
 
+wifi['3wifi'](bssid)
+    .then(coords => {
+        console.log(`3wifi:`);
+        console.log(JSON.stringify(coords, null, 4));
+    })
+    .catch(err => {
+        console.log(`3wifi ERROR:`);
+        console.log(err);
+    });
+
+
 // result of every call will be like this:
 // {
 //    "lat"  : 59.31150685708,
 //    "lon"  : 18.07485943715,
 //    "ssid" : "Tele2Internet-F0029", // will be null in wifi.mylnikov()
-//    "range": 141                    // will be null in wifi.wigle()
+//    "range": 141                    // will be null in wifi.wigle() and wifi['3wifi']()
 // }
 ```
 
 
 @license MIT \
-@version 1.0.3 \
+@version 1.0.4 \
 @author Alexander Russkiy <developer@xinit.ru>
