@@ -42,7 +42,7 @@ wifi.init({
 Then perform requests the following way:
 
 ```JavaScript
-bssid = 'F8:3D:FF:BB:BA:29';
+bssid = 'F8:3D:FF:BB:BA:29'; // can be in every form, i.e. 'F8:3DFF-bb:Ba 29'
 
 wifi.mylnikov(bssid)
     .then(coords => {
@@ -86,5 +86,5 @@ wifi['3wifi'](bssid)
 
 
 @license MIT \
-@version 1.0.4 \
+@version 1.0.5 \
 @author Alexander Russkiy <developer@xinit.ru>
